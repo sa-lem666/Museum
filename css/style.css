@@ -20,11 +20,13 @@ h1{
     padding: 5px;
 }
 
-#button{
-    display: flex;
+button{
+    display: block;
     margin: auto;
-    padding: 2px;
-    flex-direction: row;
+    padding: 5px;
+    float: left;
+    text-align: center;
+    justify-items: center;
 }
 
 h3{
@@ -64,4 +66,27 @@ footer{
     border-style: solid;
     border-width: 5px;
     
+}
+
+h2{
+    padding: 5px;
+    background-color: rgb(85, 45, 31);
+    color: bisque;
+    border-radius: 5px;
+}
+
+.collection-item{
+    display: flex;
+    background-color: bisque;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.field-group{
+    padding: 5px;
+}
+
+#section-title{
+    text-align: center;
+    font-style: italic;
 }
